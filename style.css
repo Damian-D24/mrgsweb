@@ -1,19 +1,37 @@
-#header {
-font-family: verdana;
+#indexbanner {
 background-image: url(images/header.png);
-color: red;
 border: 4px solid red;
+text-align: center;
+}
+
+#contactbanner {
+background-image: url(images/contactbanner.jpg);
+border: 4px solid red;
+text-align: center;
+}
+
+#footer {
+background-color: red;
 text-align: center;
 }
 
 h1 {
 font-family: verdana;
 font-size: 50px;
+color: red;
+}
+
+#indexbanner p {
+font-family: verdana;
+font-size: 25px;
+text-align: left;
+color: white;
+padding-left: 20px;
 }
 
 p {
 font-family: verdana;
-font-size: 25px;
+font-size: 20px;
 text-align: center;
 }
 
@@ -30,4 +48,15 @@ font-size:15x;
 background-color:red;
 font-family:verdana;
 text-align:center;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
 }

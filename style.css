@@ -21,6 +21,12 @@ font-size: 50px;
 color: red;
 }
 
+h2 {
+font-family: verdana;
+font-size: 40px;
+color: red;
+}
+
 #indexbanner p {
 font-family: verdana;
 font-size: 25px;
@@ -93,4 +99,19 @@ input[type=submit]:hover {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
+}
+
+.value {
+  width:100%;
+  font-family: verdana;
+  display: flex;
+  justify-content: center;
+  overflow:auto;
+  gap: 10px;
+  margin: auto;
+}
+.div value div{
+  flex-direction: row;
+  width:50%;
+  margin: auto;
 }
